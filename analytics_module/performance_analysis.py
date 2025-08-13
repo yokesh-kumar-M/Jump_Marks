@@ -1,6 +1,7 @@
 def identify_weak_subjects(df):
     return df[df['Grade Point'] < 7]
 
+# dumpy Push 1
 def improvement_suggestions(df, target_cgpa):
     df = df.copy()
     suggestions = []
